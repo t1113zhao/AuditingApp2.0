@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.example.administrator.financialauditingapppro.MainDesk.ProjectsDetail.UploadFragment.SamplePictureActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/pictureViewBackIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:padding="7dp"
+            android:src="@drawable/icon_arrowback" />
+
+        <TextView
+            android:id="@+id/pictureViewTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="7"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/pictureViewUploadTV"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/pictureViewLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

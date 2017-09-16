@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinancialAuditingAppPro</string>
+    <string name="prompt_username">Enter Username</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="pending">Pending</string>
+    <string name="processed">Processed</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="address">Address:</string>
+    <string name="stage">Stage:</string>
+    <string name="upload_photos">Upload Photos</string>
+    <string name="add_a_project">Add a Project</string>
+    <string name="construction">Construction</string>
+    <string name="completed">Completed</string>
+    <string name="project_info">Project Info</string>
+    <string name="project_progess">Project Progess</string>
+    <string name="upload_pics">Upload Pics</string>
+</resources>
